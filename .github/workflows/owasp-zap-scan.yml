@@ -14,5 +14,4 @@ jobs:
         uses: zaproxy/action-baseline@v0.6.1
         with:
           target: 'http://testphp.vulnweb.com/'
-          rules_file_name: '.zap/rules.tsv'
           cmd_options: '-a'
